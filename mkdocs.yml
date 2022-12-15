@@ -1,0 +1,109 @@
+# Project information
+site_name: KidsBlock
+site_url: https://KidsBlockcc.gitee.io/zh/
+site_author: KidsBlock Team
+site_description: >-
+  KidsBlock 中文资料站
+
+# Repository
+repo_name: KidsBlockcc/KidsBlockcc.github.io
+repo_url: https://github.com/KidsBlockcc/KidsBlockcc.github.io/tree/zh
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+  icon:
+    logo: material/library
+  favicon: assets/favicon.png
+  logo: 'assets/logo.svg'
+
+# Copyright
+copyright: Copyright &copy; 2020 - 2021 KidsBlock.cc
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KidsBlockcc
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+# Page tree
+nav:
+  - 主页: 
+    - 主页: index.md
+
+  - 下载和安装:
+    - 下载: download-software.md
+      - Windows客户端: developer/develop-extensions/quick-start.md
+      - Mac客户端: developer/develop-extensions/reference.md
+    - 安装: normal-user/interface-introduction.md
+        - Windows客户端: developer/develop-extensions/quick-start.md
+        - Mac客户端: developer/develop-extensions/reference.md
+  - 教程:
+    - 功能介绍:
+      - 菜单栏: developer/develop-extensions/quick-start.md
+      - 设置界面: developer/develop-extensions/reference.md
+    - 实时模式:
+      - 介绍: developer/customization/introduction.md
+
+    - 上传模式:
+      - 快速开始: developer/develop-from-source/quick-start.md
+
+    - 软件编程教程:
+
+    - 硬件实时编程模式教程:
+
+    - 硬件上传编程模式教程:
+
+  - 应用项目:
+    - 介绍: business-service/introduction.md
