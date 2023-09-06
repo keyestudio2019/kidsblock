@@ -84,3 +84,26 @@ nav:
 
   - 下载和安装:
     - 下载: docs/download-software.md
+      - Windows客户端: docs/developer/develop-extensions/quick-start.md
+      - Mac客户端: docs/developer/develop-extensions/reference.md
+    - 安装: ndocs/ormal-user/interface-introduction.md
+        - Windows客户端: docs/developer/develop-extensions/quick-start.md
+        - Mac客户端: docs/developer/develop-extensions/reference.md
+  - 教程:
+    - 功能介绍:
+      - 菜单栏: docs/developer/develop-extensions/quick-start.md
+      - 设置界面: docs/developer/develop-extensions/reference.md
+    - 实时模式:
+      - 介绍: docs/developer/customization/introduction.md
+
+    - 上传模式:
+      - 快速开始: docs/developer/develop-from-source/quick-start.md
+
+    - 软件编程教程:
+
+    - 硬件实时编程模式教程:
+
+    - 硬件上传编程模式教程:
+
+  - 应用项目:
+    - 介绍: docs/business-service/introduction.md
